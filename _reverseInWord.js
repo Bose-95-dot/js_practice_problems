@@ -4,11 +4,31 @@
 //     return str.split("").reverse().join("");
 // }
 
-// const x = _reverseWord("RTX")
-// console.log(x,"x")
+// const x = _reverseWord("Hello World")
+// console.log(x)
 
 
 //@method 2
 
 
-const x = _reverseWord("RTX")
+// function _reverseWord(str) {
+//     // Step 1: Find the length of the string manually
+//     let length = 0;
+//     while (str[length] !== undefined) {
+//         length++;
+//     }
+
+//     // Step 2: Reverse the string manually
+//     let reversed = "";
+//     for (let i = length - 1; i >= 0; i--) {
+//         if (str[i] !== ",") {
+//             reversed += str[i]; // Add each non-comma character
+//         }
+//     }
+
+//     return reversed;
+// }
+
+// const x = _reverseWord("Hello, World");
+// console.log(x); // Output: "dlroW olleH"
+

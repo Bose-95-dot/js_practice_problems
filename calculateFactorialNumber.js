@@ -5,11 +5,10 @@
 //     let factorial = 1;
 //     for (let index = 0; index < number; index++) {
 //         factorial = factorial * (number - index);
-
 //     }
 //     return factorial;
 //  }
-//  const result = calculateFactorialNumber(5)
+//  const result = calculateFactorialNumber(4)
 //  console.log(result)
 
 //@method 2 (recursive)
